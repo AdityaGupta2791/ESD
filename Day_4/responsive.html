@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .block1{
+                width: 60%;
+                height: 200px;
+                border: 2px solid black;
+                margin: auto;
+            }
+            h1{
+                text-align: center;
+            }
+            @media (max-width: 500px){
+                .block1{
+                    background-color: red;
+                }
+           }
+           @media (min-width: 501px) and (max-width: 800px){
+            .block1{
+                background-color: blue;
+            }
+           }
+           @media (min-width: 801px){
+            .block1{
+                background-color: green;
+            }
+           }
+        </style>
+    </head>
+    <body>
+        <div class="block1">
+            <h1>This is Hi</h1>
+        </div>
+    </body>
+</html>

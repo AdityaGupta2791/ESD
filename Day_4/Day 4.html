@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .mob{
+                width: 60%;
+                height: 200px;
+                border: 2px solid black;
+                margin: auto;
+                display: none;
+                text-align: center;
+            }
+            .lap{
+                width: 60%;
+                height: 200px;
+                border: 2px solid black;
+                margin: auto;
+                display: none;
+            }
+            .desk{
+                width: 60%;
+                height: 200px;
+                border: 2px solid black;
+                margin: auto;
+                display: none;
+            }
+            h1{
+                text-align: center;
+            }
+            @media (max-width: 500px){
+                .mob{
+                    background-color: red;
+                    display: block;
+                }
+           }
+           @media (min-width: 501px) and (max-width: 800px){
+            .lap{
+                background-color: blue;
+                display: block;
+            }
+           }
+           @media (min-width: 801px){
+            .desk{
+                background-color: green;
+                display: block;
+            }
+           }
+        </style>
+    </head>
+    <body>
+        <div class="mob"><h1>MOBILE</h1></div>
+        <div class="lap"><h1>TABLET</h1></div>
+        <div class="desk"><h1>LAPTOP</h1></div>
+    </body>
+</html>
