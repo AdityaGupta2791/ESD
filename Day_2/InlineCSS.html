@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--External CSS Link-->
+        <link rel="stylesheet" href="style.css">
+
+        <!--Internal CSS-->
+        <!--1.Universal selector denoted by " * "-->
+        <!--2.Tag selector-->
+        <!--3.ID selector-->
+        <style>
+            p{
+                border: 1px solid red;
+                color: blue;
+                background-color: beige;
+            }
+            #heading{
+                font-size: 8px;
+                color: aqua;
+                background-color: chartreuse;
+            }
+            .newclass{
+                color: blueviolet;
+                background-color: bisque;
+                font-size: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h4 id="externalcss">External ID</h4>
+        <h3 class="myclass">External Class</h3>
+
+        <h1 class="newclass">Internal Class</h1>
+        <h2 id="heading">Internal ID</h2>
+        <p>This is  a Internal CSS</p>
+
+        <!--Inline CSS-->
+        <p style="font-size: 20px; color: blue">This is Inline CSS</p>
+    </body>
+</html>

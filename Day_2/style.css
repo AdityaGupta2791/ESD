@@ -1,0 +1,10 @@
+#externalcss{
+    background-color: black;
+    color: antiquewhite;
+    font-size: 100%;
+}
+.myclass{
+    color: black;
+    background-color: aliceblue;
+    font-size: medium;
+}
