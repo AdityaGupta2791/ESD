@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <P id="para"></P>
+        <script>
+            var arr = ["HTML", "CSS", "JAVASCRIPT"];
+            document.getElementById("para").innerHTML = arr[1];
+
+            for(var i=0; i<arr.length; i++){
+                document.write(arr[i] + " ");
+            }
+            //To update value in Array
+            arr[2] = "JS";
+            document.write("<br><br>" + arr[2]);
+
+            //to merge an Array
+            var arr2 = ["C++", "JAVA"];
+            document.write("<br><br>" + arr.concat(arr2));
+
+            //To delete an item in Array
+            delete arr[2];
+            document.write("<br><br>" + arr);
+
+            //push pop
+            arr.pop();
+            document.write("<br><br>" + arr);
+
+            arr.push("PYTHON");
+            document.write("<br><br>" + arr);
+
+            //slice
+            document.write("<br><br>" + arr.slice(0,2));
+        </script>
+    </body>
+</html>

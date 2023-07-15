@@ -1,0 +1,26 @@
+<!Doctype html>
+<html>
+    <body>
+        <p id="para1">This is para</p>
+        <p id="para2">This is para</p>
+        <button id="btn" onclick = "myfunction()">Click Here</button>
+        <script>
+            var stylecss = document.getElementById("para1");
+            stylecss.style.color = "red";
+            stylecss.style.backgroundColor = "aqua";
+            stylecss.style.fontSize = "30px";
+            stylecss.style.textAlign = "center";
+
+            function myfunction(){
+                document.getElementById("para2").onclick = function(){
+                    alert("click on paragraph")
+                };
+                var stylecss = document.getElementById("para1");
+                stylecss.style.color = "blue";
+                stylecss.style.backgroundColor = "green";
+                stylecss.style.fontSize = "50px";
+                alert("wARNING!!!");
+            }
+        </script>
+    </body>
+</html>
