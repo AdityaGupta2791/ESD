@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .block1{
+                border: 2px solid black;
+                width: 60%;
+                height: 200px;
+                margin-top: 50px;
+                margin-left: 50px;
+                padding-top: 50px;
+                padding-left: 50px;
+            }
+            .block2{
+                height: 200px;
+                width: 60%;
+                border: 1px solid blue;
+                border-radius: 3px;
+                background-color: aqua ;
+                margin: 100px;
+                padding: 100px;
+            }
+            .block3{
+                height: 50%;
+                width: 50%;
+                border: 2px dashed red;
+                border-radius: 10px;
+                background-color: aqua;
+                margin: 100px 0px 100px 50px;
+                padding: 50px 0px 50px 60px;
+            }
+            .block4:hover{
+                background-color: red;
+                border-radius: 10px;
+            }
+            .block5{
+                text-align: center;       /*--To align the items to center in DIV--*/
+                height: 30%;
+                width: 30%;
+                background-color: green;
+                padding: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="block1"><p>This is DIV 1</p></div>
+
+        <div class="block2"><p>This is DIV 2</p></div>
+
+        <div class="block3"><p>This is DIV 3</p></div>
+
+        <!--Create button at center. On Hovering, the backgraound & border-radius should change-->
+        <div class="block5">
+            <input type="button" class="block4" value="Hover Here">
+        </div>
+    </body>
+</html>
